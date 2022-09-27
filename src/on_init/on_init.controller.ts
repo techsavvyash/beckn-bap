@@ -16,6 +16,6 @@ export class OnInitController {
 
   @Post()
   create(@Body() onInitDto: OnInitDTO) {
-    return this.onInitService.create(createOnInitDto);
+    return this.onInitService.create(onInitDto);
   }
 }
